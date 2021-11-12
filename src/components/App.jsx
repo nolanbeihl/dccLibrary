@@ -19,7 +19,7 @@ class App extends Component {
 goToNextBook = () => {
     let tempBookNumber = this.state.booknumber;
     tempBookNumber++;
-    if(tempBookNumber == this.books.length){
+    if(tempBookNumber === this.books.length){
         tempBookNumber = 0;
     }
     this.setState({
