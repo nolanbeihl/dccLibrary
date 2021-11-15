@@ -1,3 +1,4 @@
+import { Component } from "react";
 import React from 'react';
 
 class BookCreator extends Component {
